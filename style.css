@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffe5;
+    height: 70px;
+    box-shadow: 0px 1px rgba(107, 107, 107, 0.5);
+}
+
+#header-img {
+    margin-left: 0.5rem;
+}
+
+ul {
+    float: right;
+    display: inline-block;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    margin: 10px;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    display: inline-block;
+    padding: 15px;
+    background-color: #ffffe5;
+}
+
+#page-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.boxA {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #ffffcc;
+    padding-top: 10px;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.boxA_video {
+    margin-right: 15vw;
+    height: 360px;
+    width: 640px;
+}
+
+.boxA_text {
+    margin-left: 10vw;
+    width: 25vw;
+}
+
+.boxA_text_header {
+    font-size: 2rem;
+}
+
+.boxA_text_content {
+    margin-top: 0.7rem;
+    line-height: 130%;
+}
+.boxB {
+    padding: 20px;
+    height: 42vw;
+    width: 100%;
+}
+
+.boxB_photo {
+    height: 480px;
+    width: 480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxB_text {
+    min-width: 100%;
+    text-align: center;
+}
+.boxB_text_0 {
+    font-size: 2.5rem;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.boxB_text_points {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.boxB_text_1 {
+    max-width: 10vw;
+}
+
+.boxC {
+    width: 100%;
+    height: 30vh;
+    background-color: #ffffcc;
+    padding-top: 2rem;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#email {
+    width: 10rem;
+    margin: 1rem auto;
+}
+#submit {
+    width: 5rem;
+    margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 60px;
+    }
+    li a {
+        display: block;
+    }
+}
