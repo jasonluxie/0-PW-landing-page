@@ -17,29 +17,25 @@
 
 #header-img {
     margin-left: 0.5rem;
+    display: inline-block;
 }
 
 ul {
-    float: right;
-    display: inline-block;
     list-style-type: none;
+    display: inline;
 }
 
 li {
-    float: left;
     margin: 10px;
+    float:right;
 }
 
 li a {
-    display: block;
     text-align: center;
     text-decoration: none;
-}
-
-a {
-    display: inline-block;
     padding: 15px;
     background-color: #ffffe5;
+    display: block;
 }
 
 #page-content {
